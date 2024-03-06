@@ -31,9 +31,7 @@ jQuery(document).ready(function($){
 
     $('.slider-home-1').owlCarousel({
         loop:true,
-        // arrows:false,
-        // autoplay:true,
-        // autoplayTimeout:4000,
+       
         items:1
       })
 /* 2. dishes */ 
@@ -329,7 +327,7 @@ jQuery(function($) {
   }
 });
 
-/* 11. progress go to top */
+
 
 let calcScrollValue = () => {
   let scrollProgress = document.getElementById("progress");
@@ -355,5 +353,5 @@ window.onload = calcScrollValue;
 
 
 
-/* 12. Preloader */ 
+
         
